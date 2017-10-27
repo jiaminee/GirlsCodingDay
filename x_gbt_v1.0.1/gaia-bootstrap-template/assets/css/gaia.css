@@ -166,7 +166,6 @@ a:hover {
 }
 
 .title-modern {
-  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
 
@@ -510,7 +509,6 @@ a,
   padding: 10px 20px;
   border-color: #888888;
   color: #888888;
-  text-transform: uppercase;
 }
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle,
 .navbar .navbar-nav > li > a.btn:hover,
@@ -950,7 +948,7 @@ a,
 .section {
   padding: 50px 0;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: rgb(236, 214, 214);
 }
 
 .section-gray {
@@ -1087,7 +1085,7 @@ a,
   z-index: 3;
   content: "";
   opacity: .7;
-  background: #333;
+  background: rgb(236, 214, 214);
 }
 .filter .title-area .description {
   color: #FFFFFF;
@@ -1097,9 +1095,6 @@ a,
 }
 .filter .separator:before, .filter .separator:after {
   border-color: #FFFFFF;
-}
-.filter.filter-color-black:before {
-  background: #333;
 }
 .filter.filter-color-gold:before {
   background: #bd986c;
@@ -1112,9 +1107,6 @@ a,
 }
 .filter.filter-color-purple:before {
   background: #50236F;
-}
-.filter.filter-color-red:before {
-  background: #de6168;
 }
 .filter.filter-gradient-black:before {
   background: #1f1c2c;
@@ -2026,7 +2018,6 @@ a,
 .section-header-blog p,
 .section-presentation-page p {
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   margin: 1em 0 0.5em;
 }
 .section-header p span,
