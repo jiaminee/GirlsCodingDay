@@ -947,8 +947,9 @@ a,
 }
 
 .section {
-  padding: 50px 0;
+  padding: 0px 0;
   position: relative;
+  background-image: url("assets/img/100.jpg");
 }
 
 .section-gray {
